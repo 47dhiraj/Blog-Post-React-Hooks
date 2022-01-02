@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "About Me",
+      "body": "Hi, It's me Dhiraj Kafle from Kathmandu, Nepal. I love to make web apps and I'm mostly focused in server side/backend and equally interested in frontend. You will find me very passionate about programming who has a keen eye for new paradigms, architecture, patterns and principles.\nI love to explore new languages, indulging my time with my pet projects.",
+      "author": "Dhiraj",
+      "id": 1
+    },
+    {
+      "title": "My Experience",
+      "body": "Started working as a Php and Python Developer and fall in love with Laravel and Django. Later on, learned JavaScript and React.js. I'm also doing 3 months internship as a fresher web developer in Tech Dock Pvt. Ltd.",
+      "author": "Dhiraj",
+      "id": 2
+    },
+    {
+      "title": "My Background",
+      "body": "I am always striving to broaden my knowledge and sharpen my skills. I love working in environment with lots of challenges and brilliant people to share those challenges with. I am very passionate about programming. I have keen eye for new paradigms and architecture. Though I am comfortable in one language, I also like to explore new languages.\n\n\nAs a self learner, I started programming from mid of 2017, started from HTML, CSS, JavaScript & then php (Laravel), Python (Django) and then i also started learning some ML stuffs(numpy, pandas, TensorFlow). I also created Movie Recommendation System with Django & ML, created ecommerce web application, created Product Display System using PHP, created CRM system using Laravel also done some project planning system with react(redux) & firebase.",
+      "author": "Dhiraj",
+      "id": 3
+    }
+  ]
+}

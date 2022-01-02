@@ -1,0 +1,160 @@
+/* yo talako link chai google font styling ko lagi ho */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+/* base styles */
+
+/*   * vannale applying this style globally to all the dom element of web page  */
+* {                                   
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;          /* vertically center items lai align gareko */
+  max-width: 800px;
+  margin: 0 auto;               /* margin-top and margin-bottomma 0 pixel vaneko  &   margin-left and margin-right chai auto vaneko */
+  border-bottom: 5px solid #f2f2f2;
+}
+
+
+.navbar h1 {
+  color: #f1356d;
+}
+
+
+.navbar .links {
+  margin-left: auto;
+}
+
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  
+}
+
+.navbar a:hover {
+  color: #f1356d;
+}
+
+
+.content {
+  max-width: 800px;
+  margin: 40px auto;                          /* margin-top and margin-bottomma 40 pixel vaneko  &   margin-left and margin-right chai auto vaneko */
+  padding: 20px;
+}
+
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #f1ebeb;
+}
+
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
+}
+
+
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+} 
+
+.blog-preview p {
+  font-size: 16px;
+  color: #141414;
+  
+} 
+
+.blog-preview a {
+  text-decoration: none;
+}
+
+
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+
+/* create new blog form */
+.create {
+  
+  max-width: 500px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.create label {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  color: #272425;
+}
+
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 8px 5px;
+  margin: 10px 0;
+  border: 2px solid rgb(197, 196, 196);
+  box-sizing: border-box;         /* 3 tai element lai same size(width) ko banaune try garcha by apply padding and border on all element */
+  display: block;
+}
+
+.create textarea{
+  height: 130px;
+}
+
+.create select {
+  font-size: 17px;
+  font-weight: 400;
+  color: #030303;
+  cursor: pointer;
+}
+
+.create button {
+  background: #f1356d;
+  color: rgb(255, 255, 255);
+  border: 0;
+  padding: 6px;
+  font-size: large;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+
+
